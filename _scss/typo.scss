@@ -1,0 +1,43 @@
+body{
+    font-family: 'Quicksand', sans-serif;}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    font-weight: 100;
+    line-height: 1.25;
+    text-rendering: optimizeLegibility;
+    font-weight:600;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1{
+    font-size:24px;
+}
+
+h2{
+    font-size:18px;
+    letter-spacing: 2px;
+}
+
+h3{
+    font-size:14px;
+    letter-spacing: 2px;
+    text-decoration:none;
+    margin:0;
+}
+
+a{
+    text-decoration:none;
+    font-size:14px;
+    font-weight:600;
+}
+
+p{
+    font-size:13px;
+}
+
+i{
+    font-size:18px !important;
+}
+
+

@@ -1,0 +1,10 @@
+<ul class=" social-buttons">
+    {% for network in site.social %}
+    <li class="social-button">
+        <a href="{{ network.url }}" target="_blank">
+           {{ network.title }}
+        </a>
+    </li>
+     
+     {% endfor %} 
+</ul>

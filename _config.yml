@@ -1,0 +1,22 @@
+  # HTML Head #
+  author: ihpwtnp
+  title: tofi
+  description: tofi jekyll personal blog theme
+  keywords: blog, personal, jekyll, theme
+
+  #Social Buttons
+  social:
+    - title: "twitter"
+      url: "https://twitter.com/ihpwtnp"
+    - title: "github"
+      url: "https://github.com/betulgundogdu"
+    - title: "codepen"
+      url: "https://codepen.io/ihpwtnp"
+
+  # Minification scss 
+  sass:
+    sass_dir:          _scss
+    style:            :compressed
+
+  # Build settings
+  theme: tofi

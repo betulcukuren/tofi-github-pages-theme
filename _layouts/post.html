@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+
+{% include head.html %}
+
+<body>
+  <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+  {% include header.html %}
+  {% include menu.html %}
+  <div class="container" id="post">
+    <div class="post-title">
+      <a href="../../../index.html"><ion-icon name="return-down-back-outline"></ion-icon></a>
+      <span>{{ page.title }}</span>
+      <div class="tags">
+        {% for tag in page.tags %}
+        <a class="post-tag" href="../../../index.html/{{ tag }}"> #{{ tag }} </a>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="post content">
+        {{ content }}
+        <div class="share-page">
+          <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter"><ion-icon name="logo-twitter"></ion-icon></a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

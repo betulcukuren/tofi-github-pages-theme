@@ -1,0 +1,11 @@
+    <ol class="posts">
+        {% for post in site.posts %}
+        <li class="post">
+            <a class="post-title" href="{{ post.url }}">{{ post.title }} </a>
+            <p>{{ post.date  | date_to_string }}</p>
+        </li>
+        {% endfor %}
+    </ol>
+    <div class="bg-effect">
+        
+    </div>
