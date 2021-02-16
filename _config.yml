@@ -19,4 +19,4 @@
     style:            :compressed
 
   # Build settings
-  theme: tofi
+  remote_theme: tofi
