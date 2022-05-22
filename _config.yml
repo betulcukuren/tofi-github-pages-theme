@@ -1,17 +1,19 @@
   # HTML Head #
-  author: ihpwtnp
-  title: ihpwtnp
+  author: betulgundogdu
+  title: tofi
   description: tofi jekyll personal blog theme
   keywords: blog, personal, jekyll, theme
 
   #Social Buttons
   social:
-    - title: "twitter"
-      url: "https://twitter.com/ihpwtnp"
     - title: "github"
       url: "https://github.com/betulgundogdu"
+    - title: "leetcode"
+      url: "https://leetcode.com/deathQueue/"
     - title: "codepen"
       url: "https://codepen.io/ihpwtnp"
+    - title: "linkedin"
+      url: "https://www.linkedin.com/in/betulgundogdu/"
 
   # Minification scss 
   sass:
@@ -19,4 +21,4 @@
     style:            :compressed
 
   # Build settings
-  remote_theme: tofi
+  theme: tofi

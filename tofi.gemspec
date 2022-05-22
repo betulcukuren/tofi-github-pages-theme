@@ -3,8 +3,8 @@
 Gem::Specification.new do |spec|
   spec.name          = "tofi"
   spec.version       = "0.1.0"
-  spec.authors       = ["betulg"]
-  spec.email         = ["betul.gundogdu@ceng.deu.edu.tr"]
+  spec.authors       = ["betulnerukuc"]
+  spec.email         = ["betulcukuren@gmail.com"]
 
   spec.summary       = "Minimalist Github Pages Blog Template"
   spec.homepage      = "https://betulgundogdu.github.io"
