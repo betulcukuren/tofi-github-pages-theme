@@ -19,3 +19,8 @@
   sass:
     sass_dir:          _scss
     style:            :compressed
+    
+    
+ # Medium integration
+- name: Medium Post
+  uses: InfraWay/post-medium-action@v1.6.0
